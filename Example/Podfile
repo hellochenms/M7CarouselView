@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'M7CarouselView_Example' do
+  pod 'M7CarouselView', :path => '../'
+
+  target 'M7CarouselView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
