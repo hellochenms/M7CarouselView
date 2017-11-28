@@ -23,6 +23,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9956E52B1FCD456F009BCEBF /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956E52A1FCD456F009BCEBF /* CarouselViewController.m */; };
+		9956E52C1FCD456F009BCEBF /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956E52A1FCD456F009BCEBF /* CarouselViewController.m */; };
+		9956E52F1FCD47DE009BCEBF /* CarouselItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956E52E1FCD47DE009BCEBF /* CarouselItem.m */; };
+		9956E5311FCD484D009BCEBF /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9956E5301FCD484D009BCEBF /* star@2x.png */; };
+		9956E5331FCD4DB9009BCEBF /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9956E5321FCD4DB9009BCEBF /* share@2x.png */; };
+		9956E5351FCD4DC8009BCEBF /* comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9956E5341FCD4DC8009BCEBF /* comment@2x.png */; };
 		A3C80A8A2D4DCD9B867611BE /* Pods_M7CarouselView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58113B3D741CB4FBE4D01909 /* Pods_M7CarouselView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C95CB6650059B5281F0965D /* M7CarouselView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = M7CarouselView.podspec; path = ../M7CarouselView.podspec; sourceTree = "<group>"; };
+		0C95CB6650059B5281F0965D /* M7CarouselView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = M7CarouselView.podspec; path = ../M7CarouselView.podspec; sourceTree = "<group>"; };
 		1AB13C494226B9FA2DB8FABA /* Pods-M7CarouselView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M7CarouselView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M7CarouselView_Tests/Pods-M7CarouselView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4710CF1CF1671BC84EE3A1C6 /* Pods-M7CarouselView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M7CarouselView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-M7CarouselView_Example/Pods-M7CarouselView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E956CC2CB2952255D5BFEB1 /* Pods-M7CarouselView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M7CarouselView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-M7CarouselView_Tests/Pods-M7CarouselView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,10 +67,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61D04E70262BAC285D2F1110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		70D0BF3727922124BF005612 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		61D04E70262BAC285D2F1110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		70D0BF3727922124BF005612 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9956E5291FCD456F009BCEBF /* CarouselViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		9956E52A1FCD456F009BCEBF /* CarouselViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		9956E52D1FCD47DE009BCEBF /* CarouselItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselItem.h; sourceTree = "<group>"; };
+		9956E52E1FCD47DE009BCEBF /* CarouselItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselItem.m; sourceTree = "<group>"; };
+		9956E5301FCD484D009BCEBF /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		9956E5321FCD4DB9009BCEBF /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		9956E5341FCD4DC8009BCEBF /* comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment@2x.png"; sourceTree = "<group>"; };
 		EE4924DA6A10332B6FC6120F /* Pods-M7CarouselView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M7CarouselView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M7CarouselView_Example/Pods-M7CarouselView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD2CDB742767B3EC36BDFEE /* Pods_M7CarouselView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M7CarouselView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,6 +161,13 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NoViewController.h */,
 				6003F5A6195388D20070C39A /* NoViewController.m */,
+				9956E5291FCD456F009BCEBF /* CarouselViewController.h */,
+				9956E52A1FCD456F009BCEBF /* CarouselViewController.m */,
+				9956E52D1FCD47DE009BCEBF /* CarouselItem.h */,
+				9956E52E1FCD47DE009BCEBF /* CarouselItem.m */,
+				9956E5301FCD484D009BCEBF /* star@2x.png */,
+				9956E5321FCD4DB9009BCEBF /* share@2x.png */,
+				9956E5341FCD4DC8009BCEBF /* comment@2x.png */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,7 +299,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9956E5331FCD4DB9009BCEBF /* share@2x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				9956E5311FCD484D009BCEBF /* star@2x.png in Resources */,
+				9956E5351FCD4DC8009BCEBF /* comment@2x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -394,8 +417,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9956E52B1FCD456F009BCEBF /* CarouselViewController.m in Sources */,
 				6003F59E195388D20070C39A /* NoAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NoViewController.m in Sources */,
+				9956E52F1FCD47DE009BCEBF /* CarouselItem.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9956E52C1FCD456F009BCEBF /* CarouselViewController.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

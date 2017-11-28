@@ -1,0 +1,6 @@
+framework module M7CarouselView {
+  umbrella header "M7CarouselView-umbrella.h"
+
+  export *
+  module * { export * }
+}

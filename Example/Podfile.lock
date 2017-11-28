@@ -1,0 +1,16 @@
+PODS:
+  - M7CarouselView (0.1.0)
+
+DEPENDENCIES:
+  - M7CarouselView (from `../`)
+
+EXTERNAL SOURCES:
+  M7CarouselView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  M7CarouselView: d14680a2e06177aa4a58181136bd249fdd261fef
+
+PODFILE CHECKSUM: a389e9f69ac278ba758e4a5aa6423dd8452e0db8
+
+COCOAPODS: 1.2.1

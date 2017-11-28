@@ -1,0 +1,24 @@
+{
+  "name": "M7CarouselView",
+  "version": "0.1.0",
+  "summary": "A short description of M7CarouselView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hellochenms/M7CarouselView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hellochenms": "hellochenms@163.com"
+  },
+  "source": {
+    "git": "git@github.com:hellochenms/M7CarouselView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "M7CarouselView/Classes/**/*",
+  "public_header_files": "M7CarouselView/Classes/**/*.h",
+  "frameworks": "UIKit"
+}
