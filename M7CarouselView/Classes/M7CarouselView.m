@@ -61,6 +61,7 @@ static double const kTransitionDuration = 1.0;
     [reverseItems enumerateObjectsUsingBlock:^(M7CarouselItem * _Nonnull item, NSUInteger idx, BOOL * _Nonnull stop) {
         [self.imagesContainer addSubview:item];
     }];
+    [self setNeedsLayout];
 }
 
 - (void)start {
